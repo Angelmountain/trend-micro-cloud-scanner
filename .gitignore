@@ -28,6 +28,7 @@ reports/
 *.md
 !README.md
 !EXAMPLES.md
+!QUICKSTART.md
 
 # IDE
 .vscode/
