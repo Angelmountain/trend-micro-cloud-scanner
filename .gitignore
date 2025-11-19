@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Configuration files with secrets
+config.json
+!config.json.example
+
+# Reports and output
+reports/
+*.json
+*.csv
+*.md
+!README.md
+!EXAMPLES.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# API tokens and secrets
+secrets.txt
+credentials.json
+*.secret
+*.key
+*.pem
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS
+Thumbs.db

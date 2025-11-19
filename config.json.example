@@ -1,0 +1,25 @@
+{
+  "api_settings": {
+    "region": "us-east-1",
+    "timeout": 30
+  },
+  "scan_settings": {
+    "provider": "AWS",
+    "asset_types": [
+      "EC2 Instance"
+    ],
+    "min_risk_score": 50,
+    "include_stopped_instances": false
+  },
+  "output_settings": {
+    "format": "json",
+    "save_to_file": true,
+    "output_directory": "./reports",
+    "timestamp_files": true
+  },
+  "notification_settings": {
+    "enable_alerts": true,
+    "high_risk_threshold": 70,
+    "alert_webhook_url": ""
+  }
+}
